@@ -1,9 +1,9 @@
-# Beisen-module-template
+
 
 ### 功能
 
 ```
-React组件开发，并发布到北森cnpm服务器
+React组件开发，并发布到npm服务器
 ```
 
 ### 使用方法
@@ -11,9 +11,9 @@ React组件开发，并发布到北森cnpm服务器
 #### 1)空项目使用
 
 ```
-第一步：git clone git@gitlab.beisen.co:cnpm/beisen-module-template.git
+第一步：git clone https://github.com/mengshuai/npm-demo.git
 
-第二步：cd beisen-module-template
+第二步：cd npm-demo
 
 第三步：./renew.js 项目路径/项目名称
 
@@ -28,14 +28,13 @@ React组件开发，并发布到北森cnpm服务器
 `package.json`中不允许出现中文
 
 ```
-"name": "@beisen/ComponentName", 
+"name": "ComponentName", 
 "author": {
     "name": "name",
-    "email": "name@beisen.com"
+    "email": "name@163.com"
 }, 
 "description": "", 
 "keywords": [ 
-	"beisen",
     "react-component",
     "es6",
     "karma",
@@ -44,7 +43,7 @@ React组件开发，并发布到北森cnpm服务器
 "maintainers": [
 	{
 		"name": "name",
-		"email": "name@beisen.com" 
+		"email": "name@163.com" 
 	}
 ] 
 
@@ -101,7 +100,7 @@ ReactComponent
 
 #### 4) 项目运行、打包
 
-* `cnpm install` 或 `npm install` [cnpm使用教程](http://book.beisen.co/ui/Dev/_book/Tools/NPM.html)
+* `cnpm install` 或 `npm install` 
 * `npm run dev` （开发环境打包 port:8080）
 * `npm run test` （测试用例）
 * `npm run build` （生产环境打包）
@@ -113,7 +112,7 @@ ReactComponent
 * 向组织提出申请，将项目加入cnpm组
 * 申请通过后，项目作者需打tag
 
-打tag后，请同步更新package.json中的version版本号，服务器会`自动`将项目同步或更新到cnpm库中，并添加官方授权，Beisen前端组件库会自动添加或更新组件信息（包含文档，示例和预览图）
+打tag后，请同步更新package.json中的version版本号，服务器会`自动`将项目同步或更新到cnpm库中，并添加官方授权，前端组件库会自动添加或更新组件信息（包含文档，示例和预览图）
 
 应该使用`0.1.0`作为初始化开发版本。
 
@@ -270,7 +269,6 @@ render
 
 ### 参考资料
 
-* [北森前端TalentUI开发文档](http://book.beisen.co/ui/TalentUI/_book/index.html)  
 
 * [React官方文档](https://facebook.github.io/react/)  
 

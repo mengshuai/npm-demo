@@ -16,7 +16,6 @@
     "renew": "git checkout-index -f -a --prefix=../$name/ && cp ./.gitignore ../$name"
   },
   "keywords": [
-    "beisen",
     "react-component",
     "es6",
     "karma",
@@ -24,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@gitlab.beisen.co:cnpm/beisen-module-template.git"
+    "url": "https://github.com/mengshuai/npm-demo.git"
   },
   "author": {
     "name": "mengshuai",
